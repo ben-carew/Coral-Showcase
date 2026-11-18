@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sextant"
+version = "0.1.0"
+description = "Validation and comparison suite for Hyper-Kamiokande water-Cherenkov event reconstruction"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Ben Carew"}]
+keywords = ["hyper-kamiokande", "water-cherenkov", "reconstruction", "fitqun", "coral"]
+
+# Deliberately light. The analysis half (io/metrics/plots/report) needs only these;
+# running experiments additionally shells out to exp.py, and the per-PMT probes
+# additionally need Coral or a built fiTQun -- neither is an import-time dependency,
+# so `pip install sextant` on a laptop with no HK software still gives you the
+# whole validation half.
+dependencies = [
+    "numpy>=1.21",
+    "pandas>=1.4",
+    "matplotlib>=3.5",
+    "uproot>=5.0",
+    "scipy>=1.8",
+]
+
+[project.optional-dependencies]
+report = ["reportlab>=3.6"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+sextant = "sextant.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sextant = ["config/*.ini", "report/templates/*"]

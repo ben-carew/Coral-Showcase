@@ -1,0 +1,143 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git branch*)",
+      "Bash(git show*)",
+      "Bash(git fetch*)",
+      "Bash(git -C * status*)",
+      "Bash(git -C * log*)",
+      "Bash(git -C * diff*)",
+      "Bash(git -C * branch*)",
+      "Bash(git -C * show*)",
+      "Bash(git -C * fetch*)",
+      "Bash(/Users/bcarew/.conda/envs/HyperK/bin/python*)",
+      "Bash(ssh cca.in2p3.fr 'squeue*)",
+      "Bash(ssh cca.in2p3.fr 'sacct*)",
+      "Bash(ssh cca.in2p3.fr 'ls*)",
+      "Bash(ssh cca.in2p3.fr 'cat*)",
+      "Bash(ssh cca.in2p3.fr 'tail*)",
+      "Bash(ssh cca.in2p3.fr 'grep*)",
+      "Bash(ssh cca.in2p3.fr 'git -C * status*)",
+      "Bash(ssh cca.in2p3.fr 'git -C * log*)",
+      "Bash(ssh cca.in2p3.fr 'git -C * branch*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'squeue*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr \"squeue*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'sacct*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'ls*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'cat*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'tail*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'grep*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'git -C * status*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'git -C * log*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'git -C * branch*)",
+      "Bash(ssh cca.in2p3.fr 'sinfo*)",
+      "Bash(ssh cca.in2p3.fr 'scontrol show*)",
+      "Bash(ssh cca.in2p3.fr 'head*)",
+      "Bash(ssh cca.in2p3.fr 'wc*)",
+      "Bash(ssh cca.in2p3.fr 'du -sh*)",
+      "Bash(ssh cca.in2p3.fr 'find*)",
+      "Bash(ssh cca.in2p3.fr 'stat*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'sinfo*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'scontrol show*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'head*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'wc*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'du -sh*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'find*)",
+      "Bash(ssh -o BatchMode=yes cca.in2p3.fr 'stat*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'squeue*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'sacct*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'sinfo*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'scontrol show*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'ls*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'cat*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'head*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'tail*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'grep*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'wc*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'du -sh*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'find*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'stat*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'git -C * status*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'git -C * log*)",
+      "Bash(timeout 60 ssh -o BatchMode=yes cca.in2p3.fr 'git -C * branch*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'squeue*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'sacct*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'sinfo*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'scontrol show*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'ls*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'cat*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'head*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'tail*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'grep*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'wc*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'du -sh*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'find*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'stat*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'git -C * status*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'git -C * log*)",
+      "Bash(timeout 90 ssh -o BatchMode=yes cca.in2p3.fr 'git -C * branch*)",
+      "Bash(Analysis/Scripts/exp.py status*)",
+      "Bash(Analysis/Scripts/exp.py pack*)",
+      "Bash(Analysis/Scripts/exp.py logs*)",
+      "Bash(./exp.py status*)",
+      "Bash(./exp.py pack*)",
+      "Bash(./exp.py logs*)",
+      "Bash(Analysis/Scripts/wt.py list*)",
+      "Bash(./wt.py list*)",
+      "Bash(/Users/bcarew/.conda/envs/HyperK/bin/sextant status*)",
+      "Bash(/Users/bcarew/.conda/envs/HyperK/bin/sextant check*)",
+      "Bash(git -C * rev-parse*)",
+      "Bash(git -C * ls-files*)",
+      "Bash(git -C * grep*)",
+      "Bash(git -C * blame*)",
+      "Bash(git -C * remote -v*)",
+      "Bash(pdftotext *)"
+    ],
+    "deny": [
+      "Bash(git push upstream*)",
+      "Bash(git -C * push upstream*)",
+      "Bash(git push https://git.hyperk.org*)",
+      "Bash(git -C * push https://git.hyperk.org*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /Users/bcarew/Documents/PhD/Reconstruction/.claude/hooks/bash_guard.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /Users/bcarew/Documents/PhD/Reconstruction/.claude/hooks/config_format_check.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /Users/bcarew/Documents/PhD/Reconstruction/.claude/hooks/session_start.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

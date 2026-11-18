@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.DS_Store
+# local build of the fiTQun probe (cpp/fqprobe/build.sh)
+cpp/fqprobe/fqprobe
